@@ -20,7 +20,7 @@ height: 40px;
 
 
 /* debug */
-.box, .blocco-1{
+.blocco, .blocco-1, .blocco-2, .blocco-3, .blocco-4{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,8 +47,31 @@ height: 40px;
     height: 400px;
     width: 900px; 
 }
-
-
+.blocco-2{
+    height: 600px;
+}
+.blocco-blue{
+    background-color: #1e90ff;
+    width: 720px;
+    height: 500px;
+}
+.blocco-rosa-chiaro{
+    background-color: #ffc0cb;
+    width: 420px;
+    height: 500px;
+}
+.blocco-3{
+    background-color: #d3d3d3;
+}
+.blocco-4{
+    height: 1000px;
+    background-color: #d3d3d3;
+}
+.blocco-verde{
+height: 900px;
+width: 1200px;
+background-color: #228b22;
+}
 
 
 
