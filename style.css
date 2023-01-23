@@ -13,19 +13,24 @@
 background-color:lightblue ;
 height: 40px;
 }
+.debug .blocco-1{
+    background-color: blue;
+    height: 500px;
+}
+
 
 /* debug */
-
-.box{
+.box, .blocco-1{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    align-items: center;
 }
 .prima-colonna, .seconda-colonna, .terza-colonna{
     border: 1px solid;
     border-color: black;
     background-color: orange;
     border-style: dashed;
+    margin-top: 10px;
 }
 .prima-colonna, .terza-colonna{
     width: 240px;
@@ -36,6 +41,11 @@ height: 40px;
 }
 .terza-colonna{
     text-align: end;
+}
+.blocco-rosa{
+    background-color: #ee82ee;
+    height: 400px;
+    width: 900px; 
 }
 
 
