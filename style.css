@@ -110,7 +110,7 @@ justify-content: space-between;
 align-items: center;
 
 }
-.logo, .bottone{;
+.logo, .bottone{
     background-color: #ffb6c1;
     border: 1px dashed black;
 }
