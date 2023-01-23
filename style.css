@@ -20,7 +20,7 @@ height: 40px;
 
 
 /* debug */
-.blocco, .blocco-1, .blocco-2, .blocco-3, .blocco-4{
+.blocco, .blocco-1, .blocco-2, .blocco-3, .blocco-4, .blocco-5{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,7 @@ height: 40px;
 }
 .blocco-rosa{
     background-color: #ee82ee;
+    border: 1px dashed black;
     height: 400px;
     width: 900px; 
 }
@@ -51,11 +52,13 @@ height: 40px;
     height: 600px;
 }
 .blocco-blue{
+    border: 1px dashed black;
     background-color: #1e90ff;
     width: 720px;
     height: 500px;
 }
 .blocco-rosa-chiaro{
+    border: 1px dashed black;
     background-color: #ffc0cb;
     width: 420px;
     height: 500px;
@@ -71,6 +74,45 @@ height: 40px;
 height: 900px;
 width: 1200px;
 background-color: #228b22;
+border: 1px dashed black;
+}
+.blocco-5{
+    background-color: #23272a;
+    height: 630px;
+}
+.blocco-rosso{
+    background-color: #f08080;
+    border: 1px dashed black;
+    height: 580px;
+    width: 360px;
+}
+.blocco-verde-chiaro{
+    background-color: #20b2aa;
+    border: 1px dashed rgb(246, 247, 249);
+    height: 580px;
+    width: 215px;
+}
+.blocco-6{
+    height: 110px;
+    background-color: #23272a;
+    border: #d3d3d3 solid;
+    display: flex;
+    justify-content: center;
+
+}
+.casella-finale{
+background-color: #7fffd4;
+margin-top: 25px;
+width: 1200px;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo, .bottone{;
+    background-color: #ffb6c1;
+    border: 1px dashed black;
 }
 
 
