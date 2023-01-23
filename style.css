@@ -5,7 +5,47 @@
     box-sizing: border-box;
 }
 
+/* reset */
+
 /* debug */
+
+.debug header{
+background-color:lightblue ;
+height: 40px;
+}
+
+/* debug */
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.prima-colonna, .seconda-colonna, .terza-colonna{
+    border: 1px solid;
+    border-color: black;
+    background-color: orange;
+    border-style: dashed;
+}
+.prima-colonna, .terza-colonna{
+    width: 240px;
+}
+.seconda-colonna{
+    text-align: center;
+    width: 720px; 
+}
+.terza-colonna{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
 
 
 
